@@ -1,5 +1,3 @@
-
-import HexPod from './HexPod'
 import PodRing from './PodRing'
 
 export default function Level({ name, pods }: { name: string; pods: string[] }) {
@@ -13,4 +11,3 @@ export default function Level({ name, pods }: { name: string; pods: string[] }) 
     </div>
   )
 }
-
